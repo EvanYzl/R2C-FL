@@ -1,0 +1,12 @@
+{
+  "clips": {
+    "D1": 0.6055498682597936,
+    "D2": 0.6107748032302804,
+    "D3": 0.5304533842379008,
+    "D4": 0.680774525899743
+  },
+  "derivation": "development-seed 95th percentile of complete admitted-client update norms",
+  "frozen_utc": "2026-08-14T16:31:18.965233Z",
+  "schema_version": "1.0.0",
+  "test_labels_used": false
+}

@@ -1,0 +1,70 @@
+{
+  "frozen_utc": "2026-08-14T20:32:10.217393Z",
+  "schema_version": "1.0.0",
+  "selected": {
+    "R2C-FL": {
+      "D1": {
+        "lr_mult": 1.5,
+        "r2c_bootstrap_replicates": 4096,
+        "r2c_checkpoint_backend": "cpu_ring_v1",
+        "r2c_completion_floor": 0.05,
+        "r2c_delta": 0.05,
+        "r2c_delta_clip": 0.6055498682597936,
+        "r2c_eval_microbatch": 8,
+        "r2c_heldout_per_fold": 16,
+        "r2c_initial_drift_per_s": 0.01,
+        "r2c_lambda": 0.05,
+        "r2c_scale_floor": 0.05,
+        "r2c_temperature": 0.5,
+        "r2c_value_clip": 1.0
+      },
+      "D2": {
+        "lr_mult": 1.0,
+        "r2c_bootstrap_replicates": 4096,
+        "r2c_checkpoint_backend": "cpu_ring_v1",
+        "r2c_completion_floor": 0.05,
+        "r2c_delta": 0.05,
+        "r2c_delta_clip": 0.6107748032302804,
+        "r2c_eval_microbatch": 4,
+        "r2c_heldout_per_fold": 16,
+        "r2c_initial_drift_per_s": 0.01,
+        "r2c_lambda": 0.05,
+        "r2c_scale_floor": 0.05,
+        "r2c_temperature": 0.5,
+        "r2c_value_clip": 1.0
+      },
+      "D3": {
+        "lr_mult": 1.0,
+        "r2c_bootstrap_replicates": 4096,
+        "r2c_checkpoint_backend": "cpu_ring_v1",
+        "r2c_completion_floor": 0.05,
+        "r2c_delta": 0.05,
+        "r2c_delta_clip": 0.5304533842379008,
+        "r2c_eval_microbatch": 4,
+        "r2c_heldout_per_fold": 16,
+        "r2c_initial_drift_per_s": 0.01,
+        "r2c_lambda": 0.05,
+        "r2c_scale_floor": 0.05,
+        "r2c_temperature": 0.5,
+        "r2c_value_clip": 1.0
+      },
+      "D4": {
+        "lr_mult": 1.0,
+        "r2c_bootstrap_replicates": 4096,
+        "r2c_checkpoint_backend": "cpu_ring_v1",
+        "r2c_completion_floor": 0.05,
+        "r2c_delta": 0.05,
+        "r2c_delta_clip": 0.680774525899743,
+        "r2c_eval_microbatch": 2,
+        "r2c_heldout_per_fold": 16,
+        "r2c_initial_drift_per_s": 0.01,
+        "r2c_lambda": 0.05,
+        "r2c_scale_floor": 0.05,
+        "r2c_temperature": 0.5,
+        "r2c_value_clip": 1.0
+      }
+    }
+  },
+  "selection_split": "validation",
+  "test_labels_used": false
+}

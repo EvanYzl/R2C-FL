@@ -1,0 +1,12 @@
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.bib text eol=lf
+*.tex text eol=lf
+*.json -text
+*.parquet -text
+*.npz -text
+*.pt -text
+*.pth -text
+*.png -text
+*.pdf -text

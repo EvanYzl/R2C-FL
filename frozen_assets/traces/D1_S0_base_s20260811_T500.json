@@ -1,0 +1,16 @@
+{
+  "affected_fraction": 0.0,
+  "asset_path": "F:\\kbs\\baseline_corpus\\r2c_fl\\experiments\\frozen_assets\\traces\\D1_S0_base_s20260811_T500.npz",
+  "dataset_id": "D1",
+  "event_round": null,
+  "generated_utc": "2026-08-11T14:33:15.032143Z",
+  "generator_version": "r2c-trace-v1",
+  "payload_bytes_for_deadline": 1686952,
+  "round_budget": 500,
+  "scenario_id": "S0",
+  "severity": "base",
+  "source_kind": "TRACE",
+  "trace_hash": "cb2b57332153ef8cb46169d1e27ee93ef90fa049ce4287db4f8ff515cbe54bbb",
+  "trace_seed": 20260811,
+  "within_round_checkpoint_fraction": null
+}

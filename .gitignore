@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Experiment outputs and datasets
+data/raw/*/
+runs/
+queue/
+logs/
+figures/main_text_plot_data/
+*.pt
+*.pth
+*.ckpt
+*.parquet
+
+# Worker and local environment files
+*.log
+*.out
+*.err
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets and local overrides
+.env
+.env.*
+!.env.example
+secrets.*

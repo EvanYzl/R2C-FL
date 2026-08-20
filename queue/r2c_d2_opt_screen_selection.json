@@ -1,0 +1,63 @@
+{
+  "frozen_utc": "2026-08-15T16:09:50.279646Z",
+  "objective": "last50_validation_accuracy - recovery_deficit_auc20; algorithm_elapsed_s tie-break",
+  "schema_version": "1.0.0",
+  "selected": [
+    {
+      "method_config": {
+        "lr_mult": 1.5,
+        "r2c_delta_clip": 0.6107748032302804,
+        "r2c_eval_microbatch": 4,
+        "r2c_protocol_version": "anchor-bounded-overhead-v2",
+        "r2c_v2_agreement_threshold": 0.8,
+        "r2c_v2_anchor_per_fold": 16,
+        "r2c_v2_audit_replay": false,
+        "r2c_v2_completion_power": 0.0,
+        "r2c_v2_finish_scale": 0.08,
+        "r2c_v2_finish_weight": 0.75,
+        "r2c_v2_floor_fraction": 0.2,
+        "r2c_v2_propensity_power": 0.0,
+        "r2c_v2_radius_multiplier": 1.0,
+        "r2c_v2_scale_floor": 0.0001,
+        "r2c_v2_scout_steps": 1,
+        "r2c_v2_temperature": 0.35,
+        "r2c_v2_uncertainty_floor_fraction": 0.35,
+        "r2c_v2_value_clip": 4.0,
+        "r2c_v2_weight_cap": 2.0
+      },
+      "run_id": "A-R2C-D2-S4-SCREEN-V2-s20260810",
+      "screen_rank": 1,
+      "validation_objective": 0.49278299999999997,
+      "variant_index": 2
+    },
+    {
+      "method_config": {
+        "lr_mult": 1.5,
+        "r2c_delta_clip": 0.6107748032302804,
+        "r2c_eval_microbatch": 4,
+        "r2c_protocol_version": "anchor-bounded-overhead-v2",
+        "r2c_v2_agreement_threshold": 0.8,
+        "r2c_v2_anchor_per_fold": 32,
+        "r2c_v2_audit_replay": false,
+        "r2c_v2_completion_power": 0.0,
+        "r2c_v2_finish_scale": 0.08,
+        "r2c_v2_finish_weight": 1.25,
+        "r2c_v2_floor_fraction": 0.1,
+        "r2c_v2_propensity_power": 0.0,
+        "r2c_v2_radius_multiplier": 1.0,
+        "r2c_v2_scale_floor": 0.0001,
+        "r2c_v2_scout_steps": 1,
+        "r2c_v2_temperature": 0.2,
+        "r2c_v2_uncertainty_floor_fraction": 0.35,
+        "r2c_v2_value_clip": 4.0,
+        "r2c_v2_weight_cap": 2.0
+      },
+      "run_id": "A-R2C-D2-S4-SCREEN-V5-s20260810",
+      "screen_rank": 2,
+      "validation_objective": 0.49240000000000006,
+      "variant_index": 5
+    }
+  ],
+  "selection_split": "validation",
+  "test_labels_used": false
+}

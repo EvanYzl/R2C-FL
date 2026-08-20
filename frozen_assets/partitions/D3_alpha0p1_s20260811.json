@@ -1,0 +1,13 @@
+{
+  "asset_path": "F:\\kbs\\baseline_corpus\\r2c_fl\\experiments\\frozen_assets\\partitions\\D3_alpha0p1_s20260811.npz",
+  "dataset_id": "D3",
+  "dirichlet_alpha": 0.1,
+  "generated_utc": "2026-08-11T14:33:19.802774Z",
+  "maximum_client_samples": 2343,
+  "minimum_client_samples": 23,
+  "num_clients": 100,
+  "partition_hash": "650ba5c81b55989982b80c1d1c86df033b4a1f22134f1d16b9bb7549fd6368d7",
+  "partition_seed": 20260811,
+  "partition_type": "dirichlet_label",
+  "validation_rule": "fixed_stratified_10pct_of_official_train"
+}

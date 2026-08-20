@@ -1,0 +1,138 @@
+{
+  "dataset_checksums": {
+    "D1": "3be3824e51221da1463e146a394a124d424b28bb4901496febfb99cccc9b0621",
+    "D2": "f3e509462c74015a2be4c649d3d6dd3dfb096a5928f6b0860c9c20c945934ee3",
+    "D3": "01759807ab6500236a1323851c50a97d3051429918faf1fdb388e2ffd601f0cc",
+    "D4": "2432c4fe1f006f61fe55ca20fcd9efecca6efdf71f7f10b8b9bb6807ab114522"
+  },
+  "dev_partitions": {
+    "D1": {
+      "asset_path": "F:\\kbs\\baseline_corpus\\r2c_fl\\experiments\\frozen_assets\\partitions\\D1_alpha0p1_s20260810.npz",
+      "dataset_id": "D1",
+      "dirichlet_alpha": 0.1,
+      "generated_utc": "2026-08-11T14:33:15.002011Z",
+      "maximum_client_samples": 2589,
+      "minimum_client_samples": 17,
+      "num_clients": 100,
+      "partition_hash": "d46a070ca95663d421cf2fd48c9488379c449066932a0738a4cd8b5a14f5c641",
+      "partition_seed": 20260810,
+      "partition_type": "dirichlet_label",
+      "validation_rule": "fixed_stratified_10pct_of_official_train"
+    },
+    "D2": {
+      "asset_path": "F:\\kbs\\baseline_corpus\\r2c_fl\\experiments\\frozen_assets\\partitions\\D2_alpha0p1_s20260810.npz",
+      "dataset_id": "D2",
+      "dirichlet_alpha": 0.1,
+      "generated_utc": "2026-08-11T14:33:17.322579Z",
+      "maximum_client_samples": 1821,
+      "minimum_client_samples": 16,
+      "num_clients": 100,
+      "partition_hash": "ad09acba9e777aaef520e57115fb3b82df9dd8b78972b10e03420cbf86bdbb19",
+      "partition_seed": 20260810,
+      "partition_type": "dirichlet_label",
+      "validation_rule": "fixed_stratified_10pct_of_official_train"
+    },
+    "D3": {
+      "asset_path": "F:\\kbs\\baseline_corpus\\r2c_fl\\experiments\\frozen_assets\\partitions\\D3_alpha0p1_s20260810.npz",
+      "dataset_id": "D3",
+      "dirichlet_alpha": 0.1,
+      "generated_utc": "2026-08-11T14:33:21.600713Z",
+      "maximum_client_samples": 2646,
+      "minimum_client_samples": 12,
+      "num_clients": 100,
+      "partition_hash": "ef9e1844c6d43f4f34bf296335f971724b359cb82b8f4010dba8c47745900184",
+      "partition_seed": 20260810,
+      "partition_type": "dirichlet_label",
+      "validation_rule": "fixed_stratified_10pct_of_official_train"
+    },
+    "D4": {
+      "asset_path": "F:\\kbs\\baseline_corpus\\r2c_fl\\experiments\\frozen_assets\\partitions\\D4_alpha0p1_s20260810.npz",
+      "dataset_id": "D4",
+      "dirichlet_alpha": 0.1,
+      "generated_utc": "2026-08-11T14:33:23.962596Z",
+      "maximum_client_samples": 628,
+      "minimum_client_samples": 214,
+      "num_clients": 100,
+      "partition_hash": "183fdfeacc7ac28dfc341d2540710d03ea16360e4d971d702f0fb8072c3dbe0a",
+      "partition_seed": 20260810,
+      "partition_type": "dirichlet_label",
+      "validation_rule": "fixed_stratified_10pct_of_official_train"
+    }
+  },
+  "dev_seed": 20260810,
+  "environment": {
+    "cuda_runtime": "13.0",
+    "cudnn": 92000,
+    "driver_version": "591.86",
+    "gpu_model": "NVIDIA GeForce RTX 5080",
+    "gpu_total_mib": 16302,
+    "gpu_uuid": "GPU-81300d71-644b-d2e2-123f-600a666b4010",
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "platform": "Windows-10-10.0.26100-SP0",
+    "pyarrow": "24.0.0",
+    "python": "3.11.15",
+    "sklearn": "1.9.0",
+    "torch": "2.12.0+cu130",
+    "torchvision": "0.27.0+cu130"
+  },
+  "formal_partitions": {
+    "D1": {
+      "asset_path": "F:\\kbs\\baseline_corpus\\r2c_fl\\experiments\\frozen_assets\\partitions\\D1_alpha0p1_s20260811.npz",
+      "dataset_id": "D1",
+      "dirichlet_alpha": 0.1,
+      "generated_utc": "2026-08-11T14:33:14.849623Z",
+      "maximum_client_samples": 1689,
+      "minimum_client_samples": 19,
+      "num_clients": 100,
+      "partition_hash": "3d85bfa798b2c6b683f55f04236964a60dede1d73d7248a99886a33df0709a6a",
+      "partition_seed": 20260811,
+      "partition_type": "dirichlet_label",
+      "validation_rule": "fixed_stratified_10pct_of_official_train"
+    },
+    "D2": {
+      "asset_path": "F:\\kbs\\baseline_corpus\\r2c_fl\\experiments\\frozen_assets\\partitions\\D2_alpha0p1_s20260811.npz",
+      "dataset_id": "D2",
+      "dirichlet_alpha": 0.1,
+      "generated_utc": "2026-08-11T14:33:16.472114Z",
+      "maximum_client_samples": 1364,
+      "minimum_client_samples": 22,
+      "num_clients": 100,
+      "partition_hash": "a77e652f18fae3538f8d2abaf8e8b8f3588953659f03bd5b9ac38df5198e1763",
+      "partition_seed": 20260811,
+      "partition_type": "dirichlet_label",
+      "validation_rule": "fixed_stratified_10pct_of_official_train"
+    },
+    "D3": {
+      "asset_path": "F:\\kbs\\baseline_corpus\\r2c_fl\\experiments\\frozen_assets\\partitions\\D3_alpha0p1_s20260811.npz",
+      "dataset_id": "D3",
+      "dirichlet_alpha": 0.1,
+      "generated_utc": "2026-08-11T14:33:19.802774Z",
+      "maximum_client_samples": 2343,
+      "minimum_client_samples": 23,
+      "num_clients": 100,
+      "partition_hash": "650ba5c81b55989982b80c1d1c86df033b4a1f22134f1d16b9bb7549fd6368d7",
+      "partition_seed": 20260811,
+      "partition_type": "dirichlet_label",
+      "validation_rule": "fixed_stratified_10pct_of_official_train"
+    },
+    "D4": {
+      "asset_path": "F:\\kbs\\baseline_corpus\\r2c_fl\\experiments\\frozen_assets\\partitions\\D4_alpha0p1_s20260811.npz",
+      "dataset_id": "D4",
+      "dirichlet_alpha": 0.1,
+      "generated_utc": "2026-08-11T14:33:23.171012Z",
+      "maximum_client_samples": 692,
+      "minimum_client_samples": 181,
+      "num_clients": 100,
+      "partition_hash": "55d141b8950461e45d3faf071539f59e2ef5cf0f5d3d0f73bd0ca24f63d5c83d",
+      "partition_seed": 20260811,
+      "partition_type": "dirichlet_label",
+      "validation_rule": "fixed_stratified_10pct_of_official_train"
+    }
+  },
+  "formal_seed": 20260811,
+  "generated_utc": "2026-08-11T14:33:35.369645Z",
+  "plot_trace_materialized": true,
+  "status": "completed",
+  "trace_count": 44
+}
